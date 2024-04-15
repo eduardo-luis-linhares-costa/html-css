@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(84, 82, 82);
+}
+
+.main-container{
+    background-color: rgb(84, 82, 82);
+    color: white;
+    display: flex;
+
+}
+
+.left-container{
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 350px;
+    margin-right: -4px;
+    border-right: 0 ;
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, #d5d0ac, #c0bda3)
+}
+
+.margin{ 
+    margin: 20px 10px; 
+}
+
+.suggested-challenge{
+    display: flex;
+ justify-content: space-between;
+   
+}
+
+.suggested-challenge img{
+    height: 17px;
+    border-radius: 7px;
+}
+
+
+.java-Fundam{
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.contain-java-fund{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 10px 0;  
+border: 2px solid rgb(156, 156, 156);
+padding: 10px;
+}
+
+.contain-java-fund img{ height: 17px;
+border-radius: 7px;
+vertical-align: bottom;
+margin-right: 5px;
+}
+
+.train-skip{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.contain-train-skip{
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+justify-content: center;
+}
+
+.footer img{ height: 17px;
+border-radius: 7px ;
+vertical-align: bottom;}
+
+
+
+/*
+right container
+*/
+
+.right-container{
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 350px;
+    background-image: linear-gradient(to bottom right, #d6b983, #929292);
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 300px;
+    overflow-y: scroll;
+    margin-left: -4px;
+    border-left: 0;
+    padding: 15px;
+    
+}
+
+.kat-position{ 
+    display: inline-flex;
+}
+
+.Kata-info img{
+    height: 17px;
+    margin-right: 10px;
+}
+
+
+.kata-description{margin-bottom: 15px;}
+
+
+.example-title{
+    margin-bottom: 0;
+}
+
+.example-container{
+margin-top: 5px;
+background-color: black;
+height: auto;
+padding: 10px;
+
+}
+
+
+
+/*
+instruções para quebra de pagina
+*/
+
+
+@media only screen and (max-width: 615px) {
+
+.main-container{ display: flex;
+flex-direction:  column;
+width: 450px;}
+
+
+}
