@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    font-family: 'Inter', sans-serif;
+    --page-background: #222;
+    --flag-width: 300px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 32px 16px;
+    background: var(--page-background);
+    color: white;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.flag {
+    width: var(--flag-width);
+    aspect-ratio: 4/3;
+    background: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.flag::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, rgba(240, 240, 240, 0.271), rgba(92, 13, 13, 0.162));
+}
+
+.flag_title {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Italy */
+/* ---------------------------------------------------------------------- */
+.flag--italy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.green-italy{ background-color: green; width: 33.3%;
+height: 100%;}
+
+.red-italy{ background-color: rgb(251, 12, 12); width: 33.3%;
+    height: 100%;}
+/* Italy here */
+
+/* ---------------------------------------------------------------------- */
+/* Ukraine */
+/* ---------------------------------------------------------------------- */
+
+.blue-ukraine{
+   background-color: rgb(0, 87, 183); width: 100%;
+   height: 50%;
+}
+
+.yellow-ukraine{
+    background-color: rgb(255, 215, 0); width: 100%;
+    height: 50%;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Kuwait */
+/* ---------------------------------------------------------------------- */
+.green-kuwait{
+    background-color: green;
+    width: 100%;
+    height: 33.3%;
+}
+
+.white-kuwait{
+    background-color: white;
+    width: 100%;
+    height: 33.3%;  
+}
+
+.red-kuwait{
+    background-color: red;
+    width: 100%;
+    height: 33.3%;
+}
+
+.poligno-kuwait{
+    background-color: black;
+    width: 228px;
+    top: 47px;
+    left: -51px;
+    height: 129px;
+    clip-path: polygon(34% 0%, 67% 0%, 100% 100%, 0% 100%);
+position: absolute;
+transform: rotate(90deg);
+}
+
+/* ---------------------------------------------------------------------- */
+/*(25% 0%): Ponto superior esquerdo.
+(75% 0%): Ponto superior direito.
+(100% 100%): Ponto inferior direito.
+(0% 100%): Ponto inferior esquerdo.
+
+/* Banglasdesh */
+/* ---------------------------------------------------------------------- */
+.flag--bangladesh{
+    background-color: rgb(0,106,78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-ball-bangladesh{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(244,42,65);
+    border-radius: 100px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Japan */
+/* ---------------------------------------------------------------------- */
+.flag--japan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.japan-ball{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Greece */
+/* ---------------------------------------------------------------------- */
+.flag--greece{
+    display: inline-flex;
+    flex-direction: column; justify-content: space-between;
+}
+
+.blue-line-greece{
+    background-color: blue;
+    height: calc(100% / 9);
+    width: 100%;
+}
+
+.blue-line-greece1{
+    background-color: blue;
+    height: calc(100% / 9);
+    width: 100%;
+   
+}
+
+.blue-line-greece2{
+    background-color: blue;
+    height: calc(100% / 9);
+    width: 100%;
+}
+
+.blue-line-greece3{
+    background-color: blue;
+    height: calc(100% / 9);
+    width: 100%;
+}
+
+.blue-line-greece4{
+    background-color: blue;
+    height: calc(100% / 9);
+    width: 100%;
+}
+
+.square-greece{
+   position: absolute;
+    background-color: blue;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square-line{
+    height:  25px;
+    width: 100%;
+    background-color: white;
+}
+
+
+.square-line2{
+    height:  25px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+/* .row1-greece{
+    position: absolute;
+    display: inline-flex; flex-direction: row; gap: 20px ;
+}
+
+.row1-square1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.row1-square2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.row2-greece{
+    position: absolute;
+    display: inline-flex; flex-direction: row; gap: 25px ;
+}
+
+
+.row2-square1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.row2-square2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Portugal */
+/* ---------------------------------------------------------------------- */
+.flag--portugal{
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+
+.red-portugal{
+    background-color: red;
+    height: 100%;
+    width: 55%;
+}
+
+.green-portugal{
+    background-color: green;
+    height: 100%;
+    width: 45%;
+}
+
+.yellow-ball{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 244, 93);
+    border-radius: 100px;
+    position: absolute;
+    left:   80px;
+    
+}

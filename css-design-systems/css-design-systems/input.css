@@ -1,0 +1,106 @@
+.form-row1{
+    margin-bottom: 25px;
+}
+
+.flex-form{
+display: flex; gap: 40px ;
+}
+
+.input-size{
+    width: 220px;
+    height: 52px;
+    font-size: 12px;
+}
+
+.input-size input{ margin-top: 4px ;padding-left: 10px;
+border-radius: 4px; height: 20px; font-size: 12px;
+border: 2px solid rgb(240, 240, 240);}
+
+.input-border1 input{
+    background-color: rgb(240, 240, 240); ;
+}
+
+.input-icon-right img{
+    height: 15px;
+    width: 15px;
+    position: relative; 
+    left: 150px;
+    bottom: 20px;}
+
+
+.border-blue input{
+    margin-top: 4px ;padding-left: 10px;
+border-radius: 4px; height: 20px; font-size: 12px;
+border: 2px solid rgb(12, 8, 253);
+}
+
+
+
+
+
+
+.input-size2{
+    width: 220px;
+    height: 52px;
+    font-size: 12px;
+}
+
+.input-size2 input{ margin-top: 4px ;padding-left: 10px;
+border-radius: 4px; height: 20px; font-size: 12px;
+border: 2px solid rgb(188, 188, 188);}
+
+.input-border2 input{
+    background-color: rgb(188, 188, 188);
+}
+
+.input-icon-right2 img{
+    height: 15px;
+    width: 15px;
+    position: relative; 
+    left: 150px;
+    bottom: 20px;}
+
+
+
+.invalid-input input:invalid {
+        border-color: red;
+      }
+    
+.error-message {
+        display: none;
+        color: red;
+      }
+
+.invalid-input input:invalid + .error-message {
+        display: block; 
+      }
+
+
+.position-img1{
+        position: relative;
+      }
+      
+.position-img1 img{
+    top: 22px;
+    position: absolute; 
+    height: 15px;
+    width: 15px;
+   }
+
+/*  .position-img2 img{
+    left: 609px;
+    top: 1277px;
+    position: absolute; 
+   }
+
+   .position-img3 img{
+    left: 398px;
+    top: 1341px;
+    position: absolute; 
+   }
+
+   .position-img4 img{
+    left: 609px;
+    top: 1341px;
+    position: absolute; 
+   }

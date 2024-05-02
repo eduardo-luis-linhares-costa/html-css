@@ -1,0 +1,149 @@
+.flex-container {
+display: inline-flex;
+gap: 10px ;
+}
+
+
+.flex {
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* margin: 32px 0; */
+    gap: 24px;
+    margin-right: 13px;}
+
+.btn-size-sm{
+    width: 66px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-size-md{
+    width: 90px;
+    height: 32px;
+    border-radius: 5px; 
+    border: none; 
+}
+
+.btn-blue1{
+    background-color: #0070D2;
+    color: white;
+}
+
+.btn-blue2{ 
+    background-color: #005FB2;
+    color: white;
+}
+
+.btn-blue2:hover{ 
+    background-color: #027fec;
+    color: white;
+}
+
+.btn-blue3{
+    background-color: #005FB2;
+    color: white;
+}
+
+.btn-blue3:active{
+    background-color: #6093bf;
+    color: white;
+}
+
+.btn-blue4{
+    background-color: #C9C7C5;
+    color: white;
+}
+
+
+.btn-blue4:disabled{
+    background-color: #C9C7C5;
+    color: white;
+}
+
+
+.btn-white{
+    background-color: white;
+    color: #0070D2;
+    border-radius: 5px; 
+    border: 2px solid;
+}
+
+.btn-white1{
+    background-color: rgba(255, 255, 255, 0.756);
+    color: #0070D2;
+    border-radius: 5px; 
+    border: 2px solid;
+}
+
+.btn-white1:hover{
+    background-color: rgba(255, 255, 255, 0.325);
+    color: #0070D2;
+}
+
+.btn-red{
+    background-color: #C23934;
+    color: white;
+}
+
+.btn-red1{
+    background-color: #A61A14;
+    color: white;}
+
+.btn-red1:hover{
+        background-color: #d75b57;
+        color: white;}
+
+.btn-red2{
+    background-color: #A61A14;
+    color: white;
+}
+
+
+.btn-red2:active{
+        background-color: #dfacab;
+    color: white;
+}
+
+.btn-red3{
+    background-color: #C9C7C5;
+    color: white;
+}
+
+
+
+.btn-green{
+    background-color: #4BCA81;
+}
+
+.btn-green1{
+    background-color: #04844B;
+}
+
+.btn-green1:hover{
+    background-color: #5ad69e;
+}
+
+
+.btn-green2:active{
+    background-color: #acdac6;
+}
+
+.btn-green2{
+    background-color: #04844B;
+}
+
+.btn-green3{
+    background-color: #C9C7C5;
+}
+
+.flex button img{
+    height: 14px;
+}
+
+.flex button{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 5px    ;
+}

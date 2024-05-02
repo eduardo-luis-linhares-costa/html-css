@@ -1,0 +1,14 @@
+.sm-img img{
+height: 24px;
+width: 24px;
+}
+
+.md-img img{
+    height: 32px;
+    width: 32px;   
+}
+
+.lg-img img{
+    height: 48px;
+    width: 48px;
+}

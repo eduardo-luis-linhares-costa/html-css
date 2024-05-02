@@ -1,0 +1,134 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 0;
+    padding: 0;}
+
+.card{
+    height: 590px;
+    width: 372px;
+    background: linear-gradient(#e72a2a, #fe9809);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    animation-name: move;
+    animation-duration: 3.5s; 
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+
+@keyframes move {
+    0% {
+        transform:  rotate(0.);
+      }
+
+    25%{
+        transform:  rotate(-0.005turn);
+    }
+
+    50% {
+        transform:  rotate(-0.01turn);
+    }
+    
+    75% {
+            transform:  rotate(0.01turn);
+        }
+      
+      100% {
+        transform: rotate(0turn);
+      }
+}
+
+
+.head img{ height: 25px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.air-structure{
+    display: flex;
+    flex-direction: column;
+    gap: 30px  ;
+    margin: 0 20px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.air-structure-title{
+    font-size: 20px;
+    font-weight:600;
+}
+
+.air-structure-text{
+    font-size: 12px;
+}
+
+.Air-upper-case{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 236px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.762);
+    overflow: hidden;
+    position: relative;
+    top: -33px;
+}
+
+.footer{
+    height: 167px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  
+}
+
+.footer-text{
+    font-size: 16px;
+    letter-spacing: 8px;
+    word-spacing: 5px;
+    color: rgba(0, 0, 0, 0.421);
+}
+
+.footer button{
+height: 40px;
+width: 90px;
+border-radius: 40px;
+color: blue;
+font-size: 18px;
+letter-spacing: 5px;
+border: 1px solid blue;
+position: relative;
+z-index: 1;
+}
+
+.footer button:hover {
+    background-color: rgb(94, 94, 251);
+    color: white;
+}
+
+
+.sapatilha img{
+    height: 349px;
+    position: absolute;
+    top: 207px;
+    left: 36px;
+}
