@@ -1,0 +1,134 @@
+
+@media screen and (max-width: 480px) {
+
+    .left-nav-bar2{
+        display: none;
+    }
+    
+    .rigth-nav-bar{
+        width: 192px;
+    }
+    
+    .text-zone{
+        width: 370px;
+    }
+    
+    .text-zone h1{
+        font-size: 35px;
+    }
+    
+    .video-btn-zone video {
+        width: 415px;
+    }
+    
+    .video-btn-zone button {
+        bottom: 22px;
+        left: 175px;
+    }
+    
+    .second-container-text {
+        width: 55%;
+    }
+    
+    .second-container-img img {
+        width: 392px;
+        height: 222px;
+    }
+    
+    .third-container-text {
+        width: 65%;
+    }
+    
+    
+    .third-container{
+        height: auto;
+        margin-bottom: 15px;
+        background: linear-gradient(to top, transparent 50%, white 50%);
+     }
+    
+    
+     .third-container-bg-square {
+    
+    
+        justify-content: center;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    
+    .third-container-box {
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .third-container-bg-square {
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 430px;
+    }
+    
+    
+    .fourth-container-text {
+        width: 60%;
+        text-align: center;}
+    
+        .fourth-container-squares {
+            flex-wrap: wrap; 
+            width: 100%;}
+    
+            .square {
+                width: 47%;
+            }
+        
+            .fourth-container-footer {
+                height: 150px;
+                width: 100%;
+            }
+    
+            .footer-box{
+                display: block;
+            }
+    
+            .footer-email-container {
+                align-items: center;
+            }
+    
+            .footer-email-item {
+                width: 95%;
+            }
+    
+            .footer-texts {
+                display: inline-flex;
+                width: 49%;
+                text-align: center;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+    
+        .footer-logo{
+            display: flex;
+            justify-content: center;
+        }
+    
+    .footer-texts-mobile-bold{
+        font-weight: bold;
+    }
+    
+    }
+    
+    
+    
+    
+    
+    

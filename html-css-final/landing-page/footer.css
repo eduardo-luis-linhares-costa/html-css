@@ -1,0 +1,55 @@
+.footer{
+    background-color: white;
+    margin-top: 2px;
+    height: auto;
+}
+
+.footer-box{
+    margin: 30px 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-email-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 14px;
+}
+
+.footer-email-item{display: flex;
+align-items: flex-end;
+gap: 10px;
+}
+
+.footer-email-item form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.footer-email-item input{
+    height: 25px;
+    border: 1px solid #c0bfbf;
+    margin-left: 3px;
+}
+
+
+.footer-email-item button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    height: 29px;
+    width: 75px;
+}
+
+.footer-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 25px;
+    font-size: 14px;
+}
+

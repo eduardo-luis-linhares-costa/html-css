@@ -1,0 +1,29 @@
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-text-img{
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.second-container-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    text-align: center;
+}
+
+.second-container-img img{
+    width: 632px;
+    height: 354px;
+}
