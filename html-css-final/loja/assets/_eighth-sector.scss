@@ -1,0 +1,35 @@
+.eighth-sector{
+    background-color: #514f4d;
+    height: 150px;
+    margin-top: 70px;
+    padding: 0 20px; 
+    @include flexCenter(row);
+    justify-content: space-between;
+
+    .eighth-sector-left{
+        @include flexCenter(row);
+        
+    }
+
+    input{
+        border: 2px solid #f7eee3;
+        height: 37px;
+        width: 250px;
+        background-color: transparent;
+        border-right: none;
+        border-radius: 3px 0px 0px 3px;
+    }
+
+    button{
+    background-color: #f7eee3;
+    height: 42px;
+    width: 100px;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    }
+
+    .eighth-sector-right{
+        @include flexCenter(row);
+        gap: 50px;
+    }
+}

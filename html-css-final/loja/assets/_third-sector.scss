@@ -1,0 +1,22 @@
+.third-sector{
+    height: 225px;
+    background-color: $second-background-color;
+    gap: 80px;
+    margin: $margin-top-bottom;
+    @include flexCenter(column);
+
+    .third-sector-parent{
+        @include flexCenter(row);
+        width: auto;
+        max-width: 850px;
+        gap: 60px;
+    }
+    .third-sector-item{
+        @include flexCenter(row);
+        gap: 15px;
+        width: 32%;
+    }
+    p{
+        font-size: 12px;
+    }
+}

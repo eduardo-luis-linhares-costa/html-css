@@ -1,0 +1,18 @@
+
+
+.nav-title{
+    width: 100%;
+    margin: 15px 0;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+    nav{
+        @include flexCenter(row);
+        gap: 40px;
+        margin: 0 15px;
+    }
+    a{
+    text-decoration: none;
+    color: black;
+    }
+}

@@ -1,0 +1,16 @@
+.sixth-sector{
+    @include flexCenter(column);
+    margin: $margin-top-bottom;
+    h2{
+        margin-bottom: 30px;
+        }
+    .sixth-sector-img{
+        @include flexCenter(row);
+        gap: 40px;
+    }
+
+    img{
+        height: 270px;
+        width: 250px;
+    }
+}

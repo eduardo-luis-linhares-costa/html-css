@@ -1,0 +1,14 @@
+.fourth-sector{
+    @include flexCenter(column);
+    gap: 15px;
+    margin: $margin-top-bottom;
+
+    .fourth-sector-imgs{
+        @include flexCenter(row);
+        gap: 15px;
+    }
+
+    img{
+        height: 300px;
+    }
+}

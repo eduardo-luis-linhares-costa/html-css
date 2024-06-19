@@ -1,0 +1,258 @@
+.nav-title {
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-title nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0 15px;
+}
+.nav-title a {
+  text-decoration: none;
+  color: black;
+}
+
+.titles {
+  position: relative;
+}
+.titles img {
+  height: 550px;
+  width: 100%;
+}
+.titles h2 {
+  position: absolute;
+  top: 34px;
+  left: 100px;
+  color: white;
+}
+.titles button {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  height: 40px;
+  width: 150px;
+  background-color: #FCED70;
+  border: none;
+  border-radius: 5px;
+}
+
+.secondsector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+  gap: 15px;
+}
+.secondsector .second-sector-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: auto;
+  max-width: 925px;
+}
+.secondsector .second-sector-item {
+  position: relative;
+}
+.secondsector img {
+  height: 179px;
+  width: 300px;
+  border-radius: 10px;
+}
+.secondsector .second-sector-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.third-sector {
+  height: 225px;
+  background-color: #F7EEE3;
+  gap: 80px;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.third-sector .third-sector-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: auto;
+  max-width: 850px;
+  gap: 60px;
+}
+.third-sector .third-sector-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+  width: 32%;
+}
+.third-sector p {
+  font-size: 12px;
+}
+
+.fourth-sector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px 0;
+}
+.fourth-sector .fourth-sector-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 15px;
+}
+.fourth-sector img {
+  height: 300px;
+}
+
+.fifth-sector {
+  height: 450px;
+  background-color: #F7EEE3;
+  position: relative;
+  margin: 40px 0;
+}
+.fifth-sector .fifth-sector-texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  gap: 15px;
+}
+.fifth-sector h4 {
+  text-decoration: underline;
+  font-style: italic;
+  letter-spacing: 10px;
+  margin: 0;
+}
+.fifth-sector p {
+  word-spacing: 9px;
+  font-style: italic;
+  line-height: 23px;
+}
+.fifth-sector span {
+  font-weight: bold;
+}
+.fifth-sector a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+.fifth-sector img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 500px;
+}
+
+.sixth-sector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.sixth-sector h2 {
+  margin-bottom: 30px;
+}
+.sixth-sector .sixth-sector-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.sixth-sector img {
+  height: 270px;
+  width: 250px;
+}
+
+.seventh-sector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.seventh-sector h2 {
+  margin-bottom: 30px;
+}
+.seventh-sector img {
+  width: 100%;
+}
+.seventh-sector button {
+  margin-top: 15px;
+  height: 40px;
+  width: 150px;
+  background-color: #FCED70;
+  border: none;
+  border-radius: 5px;
+}
+
+.eighth-sector {
+  background-color: #514f4d;
+  height: 150px;
+  margin-top: 70px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.eighth-sector .eighth-sector-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.eighth-sector input {
+  border: 2px solid #f7eee3;
+  height: 37px;
+  width: 250px;
+  background-color: transparent;
+  border-right: none;
+  border-radius: 3px 0px 0px 3px;
+}
+.eighth-sector button {
+  background-color: #f7eee3;
+  height: 42px;
+  width: 100px;
+  border: none;
+  border-radius: 0px 3px 3px 0px;
+}
+.eighth-sector .eighth-sector-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=index.css.map */

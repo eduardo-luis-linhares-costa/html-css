@@ -1,0 +1,17 @@
+.seventh-sector{
+    @include flexCenter(column);
+   margin: $margin-top-bottom; 
+
+   h2{
+    margin-bottom: 30px;
+   }
+
+    img{
+       width:  100%;
+    }
+
+    button{
+        margin-top: 15px;
+        @include button();
+    }
+}

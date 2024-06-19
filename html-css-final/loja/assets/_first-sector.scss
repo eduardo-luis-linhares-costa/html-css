@@ -1,0 +1,22 @@
+.titles{
+    position: relative;
+    img{
+        height: 550px;
+        width: 100%;
+    }
+h2{
+    position: absolute;
+    top: 34px;
+    left: 100px;
+    color: white;
+}
+button{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    @include button();
+}
+}
+
+
+
