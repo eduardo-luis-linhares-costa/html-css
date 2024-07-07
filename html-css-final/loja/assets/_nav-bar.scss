@@ -15,4 +15,38 @@
     text-decoration: none;
     color: black;
     }
+
+    .nav-hamburguer{
+        height: auto;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    border-radius: 5px;
+    display: none
+    };
+
+    .nav-hamburguer > div {
+       border: 2px solid black;
+       border-radius: 5px;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-title{ 
+        nav {
+        display: none;
+    }
+
+    .nav-hamburguer{
+        display: flex;
+        margin-right: 10px;
+    }
+}
+
+
 }

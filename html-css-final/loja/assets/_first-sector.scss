@@ -1,22 +1,61 @@
-.titles{
+.titles {
     position: relative;
-    img{
+    overflow: hidden;
+
+    .title-img-two {
+        position: relative;
+        right: 510px;
+    }
+
+    h2 {
+        position: absolute;
+        top: 14px;
+        left: 100px;
+        color: white;
+    }
+
+    button {
+        position: absolute;
+        top: 75px;
+        left: 100px;
+        @include button();
+    }
+
+    #titles-img-one {
         height: 550px;
         width: 100%;
+        object-fit: cover;
     }
-h2{
-    position: absolute;
-    top: 34px;
-    left: 100px;
-    color: white;
-}
-button{
-    position: absolute;
-    top: 90px;
-    left: 100px;
-    @include button();
-}
-}
+
+    #titles-img-two {
+        display: none;
+        height: 550px;
+
+    }
 
 
 
+    @media screen and (max-width: 480px) {
+        #titles-img-one {
+            display: none;
+        }
+
+        #titles-img-two {
+            display: block;
+        }
+
+        h2 {
+
+            top: 415px;
+            left: 30px;
+
+        }
+
+        button {
+
+            top: 475px;
+            left: 30px;
+
+        }
+    }
+}

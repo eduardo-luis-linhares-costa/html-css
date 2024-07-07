@@ -1,7 +1,7 @@
 $second-background-color: #F7EEE3;
 $margin-top-bottom: 30px 0;
 
-@mixin flexCenter($dir) {
+@mixin flexCenter($dir,) {
     display: flex;
     align-items: center;
     justify-content: center;

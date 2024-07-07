@@ -5,6 +5,7 @@
     padding: 0 20px; 
     @include flexCenter(row);
     justify-content: space-between;
+    overflow: hidden;
 
     .eighth-sector-left{
         @include flexCenter(row);
@@ -31,5 +32,12 @@
     .eighth-sector-right{
         @include flexCenter(row);
         gap: 50px;
+    }
+
+
+    @media screen and (max-width: 480px) {
+        .eighth-sector-right{
+            display: none;
+        }
     }
 }

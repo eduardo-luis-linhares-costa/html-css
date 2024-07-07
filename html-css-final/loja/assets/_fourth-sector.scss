@@ -2,6 +2,7 @@
     @include flexCenter(column);
     gap: 15px;
     margin: $margin-top-bottom;
+    overflow: hidden;
 
     .fourth-sector-imgs{
         @include flexCenter(row);

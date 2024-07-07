@@ -1,0 +1,26 @@
+.footer{
+    font-size: 12px;
+    @include flexCenter(column);
+    height: 400px;
+    background-color: #131313;
+    color: white;
+    gap: 40px;
+    padding-left: 15px;
+
+    .footer-first{
+        @include flexCenter(row);
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer-first > div {
+        width: 25%;
+    }
+
+    .footer-second{
+        width: 100%;
+        @include flexCenter(row);
+        justify-content: space-between;
+    }
+}

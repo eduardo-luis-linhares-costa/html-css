@@ -1,32 +1,50 @@
-
-
-.secondsector{
+.secondsector {
     @include flexCenter(column);
     margin: 30px 0;
     gap: 15px;
 
-    .second-sector-imgs{
-      @include flexCenter(row);
-      flex-wrap: wrap;
-      gap: 10px;
-      width: auto;
-      max-width: 925px;
+    .second-sector-imgs {
+        @include flexCenter(row);
+        flex-wrap: wrap;
+        gap: 10px;
+        width: auto;
+        max-width: 925px;
     }
 
-    .second-sector-item{
+    .second-sector-item {
         position: relative;
     }
 
-    img{
+    img {
         height: 179px;
-        width: 300px;  
+        width: 300px;
         border-radius: 10px
-};
+    }
 
-    .second-sector-text{
+    ;
+
+    .second-sector-text {
         position: absolute;
         bottom: 10px;
         left: 10px;
     }
+
+
+    @media screen and (max-width: 480px) {
+
+        .second-sector-item {
+            width: 45%;
+        }
+
+        img {
+           /* height: 110px;
+            width: 200px; */
+            object-fit: cover;
+            border-radius: 10px;
+            width: 100%;
+        }
+    }
+
 }
+
 

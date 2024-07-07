@@ -4,6 +4,7 @@
     gap: 80px;
     margin: $margin-top-bottom;
     @include flexCenter(column);
+    overflow: hidden;
 
     .third-sector-parent{
         @include flexCenter(row);
@@ -19,4 +20,21 @@
     p{
         font-size: 12px;
     }
+
+
+@media screen and (max-width: 480px) {
+    height: auto;
+
+    .third-sector-parent{
+        flex-direction: column;
+        margin: 25px 30px;
+        gap: 40px;
+    }
+
+    .third-sector-item{
+       
+        width: auto;
+    }
+}
+
 }
